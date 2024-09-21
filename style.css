@@ -1,0 +1,101 @@
+*{
+	margin : 0;
+	padding : 0 0 10 0;
+	box-sizing : border-box; 
+}
+
+.file-01 {
+	margin: auto;
+	width: 1300;
+	height: auto;
+	max-width: 100%;
+	text-align: center;
+}
+.file-02 {
+	width: 1300;
+	height: auto;
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+	margin-right: 1%;
+	margin-left: 1%;
+	margin: auto;
+	background: cadetblue;
+	padding: 17px;
+}
+p {
+	margin-right: 2%;
+	margin-left: 2%;
+}
+
+p {}
+
+.file-02 img {
+	max-width: 100%;
+}
+		
+
+.file-03 {
+	width: 1300;
+	height: auto;
+	margin: auto;
+	display: flex;
+	justify-content: space-around;
+}					
+.file-03 img {
+	max-width: 100%;
+}
+
+.header {
+	width: auto;
+	height: auto;
+	margin: auto;
+	text-align: center;
+	text-spacing-trim: space-first;
+}
+.footer {
+	width: 1600;
+	height: auto;
+	margin: auto;
+}
+h1 {
+	padding: 2 0 2 0;
+}
+/**/
+.file-02-item {
+	width: 32%;
+}
+
+.file-02-item h1 a {
+	color: black;
+	text-decoration: none;
+	margin-bottom: 10px;
+	display: block;
+}
+
+.file-02-item h1 a:hover {
+	color: red;
+}
+
+.img-box {
+	overflow: hidden;
+}
+
+
+.img-box img:hover {
+	transform: scale(1.5);
+}
+
+.hover-transition-point-5{
+	transition: all 0.5s;
+}
+
+.single-page {
+width: 1000px;
+height: auto;
+margin: auto;
+}
+
+body {
+	background-image: linear-gradient(red, yellow);
+}
